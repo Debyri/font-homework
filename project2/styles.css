@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./fonts/Proxima\ Nova\ Regular.otf');
+}
+
+.app {
+    background-color: #454e52;
+    width: 60%;
+    margin: auto;
+}
+.app-header {
+    width: 70%;
+    float: right;
+
+}
+.app-header-form {
+    background-color: #181818;
+    color: #fff;
+    padding: 20px 4px 40px 35px;
+}
+.input-field  {
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #fff;
+    background-color: #181818;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+}
+.input-field input[type='text'] {
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 10px solid pink;
+}
+.app-header-form label {
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-family: 'Proxima Nova';
+    text-transform: uppercase;
+    color: #767676;
+}
+.app-styles-bar ul {
+    float: right;
+    background-color: #fabf2d;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    list-style: none;
+    
+}
+.app-style-item {
+    display: inline-block;
+}
+/* .article-wrapper {
+    clear: both;
+} */
+.article-wrapper {
+    padding-top: 150px;
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding-left: 30px;
+}
+article {
+    height: 100%;
+    border-left: 1px solid #b9b9b9;
+    padding: 20px;
+}
+
+.author-date {
+    color: #b4b4b4;
+    font-size: 13px;
+    font-family: 'Proxima Nova';
+    text-transform: uppercase;
+}
+.article-header {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #2a2a2a;
+}
+.article-caption {
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8f8f8f
+}
+.article-paragraph {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.app-style-item svg {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    fill: rgba(255, 255, 255, 0.7);
+}
+.app-style-item:hover .bi {
+    fill: rgba(255, 255, 255, 1);
+}
